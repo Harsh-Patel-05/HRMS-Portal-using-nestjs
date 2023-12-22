@@ -1,6 +1,6 @@
 import { CreateAttendanceDto } from './dto/create-attendance.dto';
 import { UpdateAttendanceDto } from './dto/update-attendance.dto';
-import { PrismaService } from 'src/prisma/prisma.service';
+import { PrismaService } from '../../src/prisma/prisma.service';
 export declare class AttendanceService {
     private readonly prisma;
     constructor(prisma: PrismaService);
