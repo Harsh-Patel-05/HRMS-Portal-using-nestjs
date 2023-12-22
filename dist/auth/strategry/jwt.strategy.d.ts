@@ -21,4 +21,4 @@ export declare class JwtStrategy extends JwtStrategy_base {
         };
     }>;
 }
-export {};
+export { };
