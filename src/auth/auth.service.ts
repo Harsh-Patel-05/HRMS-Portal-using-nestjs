@@ -7,7 +7,7 @@ import * as otpGenerator from 'otp-generator';
 
 @Injectable()
 export class AuthService {
-  client: any;
+  // client: any;
   constructor(
     private prisma: PrismaService,
     private jwtService: JwtService,
