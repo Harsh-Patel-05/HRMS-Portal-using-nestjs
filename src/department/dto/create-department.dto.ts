@@ -7,3 +7,12 @@ export class CreateDepartmentDto {
   @ApiProperty()
   name: string;
 }
+
+
+
+
+
+
+
+
+
