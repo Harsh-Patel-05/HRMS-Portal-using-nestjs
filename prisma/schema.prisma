@@ -20,6 +20,14 @@ model User {
   updatedAt  DateTime      @updatedAt
 }
 
+
+
+
+
+
+
+
+
 model UserSession {
   id     String  @id @default(auto()) @map("_id") @db.ObjectId
   token  String
